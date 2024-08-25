@@ -1,0 +1,39 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.codePoint {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr) ) ;
+    gap: 15px;
+    text-align: center;
+}
+
+.element {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: 1px solid gold;
+}
+
+h1 {
+    text-align: center;
+}
+
+.inputElem {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    font-size: large;
+    margin-bottom: 2rem;
+}
+
+.number {
+    text-align: left;
+    opacity: 0.3;
+}
+
+.content {
+    font-weight: bold;
+}
+

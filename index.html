@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Points</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Code Point Converter</h1>
+        <div class="inputElem">
+            <div class="from">
+                <label for="from">From</label>
+                <input type="number" value="1" id="from" required>
+            </div>
+            <div class="to">
+                <label for="to">To</label>
+                <input type="number" value="100" id="to" required>
+            </div>
+            <button id="go">Go</button>
+            <button id="before100">Before 100 <<<</button>
+            <button id="next100">Next 100 >>></button>
+            <input id="fontRange" type="range" min="20" max="35" value="30">
+        </div>
+        <div class="codePoint"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
